@@ -60,91 +60,145 @@ const FeaturesSplit = ({
       className={outerClasses}
     >
       <div className="container">
-        <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
-          <div className={splitClasses}>
+        {/* <div className={innerClasses}> */}
+        {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
+        <div className={splitClasses}>
 
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+          <div className="split-item">
+            <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+              <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                Save valuable time
                   </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
+              <h3 className="mt-0 mb-12">
+                Pre-Recorded Questions
                   </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p className="m-0">
+                No more repeating the same questions to each customer. Deliver a single set of questions while preserving the human touch needed in any customer relationship
                   </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} />
-              </div>
             </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
-                  alt="Features split 02"
-                  width={528}
-                  height={396} />
-              </div>
+            <div className={
+              classNames(
+                'split-item-image center-content-mobile reveal-from-bottom',
+                imageFill && 'split-item-image-fill'
+              )}
+              data-reveal-container=".split-item">
+              <Image
+                src={require('./../../assets/images/collaboroo/record_ques.svg')}
+                alt="Features split 01"
+                width={528}
+                height={396} />
             </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
-
           </div>
+
+          <div className="split-item">
+            <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+              <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                Just One Click
+                  </div>
+              <h3 className="mt-0 mb-12">
+                Asynchronous Management
+                  </h3>
+              <p className="m-0">
+                Disseminate your questions through a link to all your customer profiles. We offer Email, Whatsapp Bot, and Telegram integration.
+                  </p>
+            </div>
+            <div className={
+              classNames(
+                'split-item-image center-content-mobile reveal-from-bottom',
+                imageFill && 'split-item-image-fill'
+              )}
+              data-reveal-container=".split-item">
+              <Image
+                src={require('./../../assets/images/collaboroo/one_click.svg')}
+                alt="Features split 02"
+                width={528}
+                height={396} />
+            </div>
+          </div>
+
+          <div className="split-item">
+            <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+              <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                Qualitative Data
+                  </div>
+              <h3 className="mt-0 mb-12">
+                Open-Ended Responses
+                  </h3>
+              <p className="m-0">
+                Your customers can choose to reply in video, audio, or text. We'll transcribe these responses, and you can watch or listen in up to 2X speed.
+                  </p>
+            </div>
+            <div className={
+              classNames(
+                'split-item-image center-content-mobile reveal-from-bottom',
+                imageFill && 'split-item-image-fill'
+              )}
+              data-reveal-container=".split-item">
+              <Image
+                src={require('./../../assets/images/collaboroo/customer_reply.svg')}
+                alt="Features split 02"
+                width={528}
+                height={396} />
+            </div>
+          </div>
+
+          <div className="split-item">
+            <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+              <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                Understand The Why
+                  </div>
+              <h3 className="mt-0 mb-12">
+                Individual Follow-Up
+                  </h3>
+              <p className="m-0">
+                Not sure what your customer is talking about? Highlight specific content within the trasncripts to follow up with individual customers.
+                  </p>
+            </div>
+            <div className={
+              classNames(
+                'split-item-image center-content-mobile reveal-from-bottom',
+                imageFill && 'split-item-image-fill'
+              )}
+              data-reveal-container=".split-item">
+              <Image
+                src={require('./../../assets/images/collaboroo/follow_up.svg')}
+                alt="Features split 02"
+                width={528}
+                height={396} />
+            </div>
+          </div>
+
+          <div className="split-item">
+            <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+              <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                Easier Consolidation
+                  </div>
+              <h3 className="mt-0 mb-12">
+                Multi Tagging
+                  </h3>
+              <p className="m-0">
+                Tag individual segments of the transcripts to consolidate your customer feedback for later analysis. We also offer Jira integration.
+                  </p>
+            </div>
+            <div className={
+              classNames(
+                'split-item-image center-content-mobile reveal-from-bottom',
+                imageFill && 'split-item-image-fill'
+              )}
+              data-reveal-container=".split-item">
+              <Image
+                src={require('./../../assets/images/collaboroo/tagging.svg')}
+                alt="Features split 03"
+                width={528}
+                height={396} />
+            </div>
+          </div>
+
         </div>
+        {/* </div> */}
       </div>
+      <br/>
+      <br/>
     </section>
   );
 }
