@@ -11,7 +11,8 @@
     border-width: $button-form--border-width;
 	border-style: $button-form--border-style;
 	border-color: color-border(button-light);
-    border-radius: $button--radius;
+    // border-radius: $button--radius;
+	border-radius: $button--radius;
     cursor: pointer;
     justify-content: center;
     text-align: center;
@@ -94,6 +95,7 @@
 	color: color(button-primary);
     background-color: color-bg(button-primary);
 	border-color: color-border(button-primary);
+	border-radius:24px;
 
     &:hover {
         background-color: color-bg(button-primary-hover);
