@@ -61,12 +61,13 @@ const FeaturesTiles = ({
 
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
-                <div className="features-tiles-item-image mb-16">
+                <div style={{ marginBottom: "16px" }}>
                   <Image
                     src={require('./../../assets/images/collaboroo/icon_time.svg')}
                     alt="Features tile icon 01"
                     width={64}
-                    height={64} />
+                    height={64}
+                  />
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
@@ -81,7 +82,7 @@ const FeaturesTiles = ({
 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
-                <div className="features-tiles-item-image mb-16">
+                <div style={{ marginBottom: "16px" }}>
                   <Image
                     src={require('./../../assets/images/collaboroo/icon_feedback.svg')}
                     alt="Features tile icon 02"
@@ -101,7 +102,7 @@ const FeaturesTiles = ({
 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
-                <div className="features-tiles-item-image mb-16">
+                <div style={{ marginBottom: "16px" }}>
                   <Image
                     src={require('./../../assets/images/collaboroo/icon_share.svg')}
                     alt="Features tile icon 03"
