@@ -61,22 +61,17 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              {/* <span className="text-color-primary">Asynchronous</span> customer relationship management */}
-              Qualitative Research is <span className="text-color-primary">time consuming</span>  
+              <span className="text-color-primary">Quality</span> Respondents for your <span className="text-color-primary">Qualitative</span> Research
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                {/* Stop wasting your team's time. Qualitative open-ended responses from your customers with one click */}
-                Stop wasting your team's time. Tech solutions to cut down your market research time.
-                </p>
+                Can't find the right interviewees? Tech-driven solutions to deliver quality interviewees at double the speed.
+              </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://forms.gle/HrMvkB4ucAZ8jtRv7">
                     Contact Us
-                    </Button>
-                  {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
-                    </Button> */}
+                  </Button>
                 </ButtonGroup>
               </div>
             </div>
