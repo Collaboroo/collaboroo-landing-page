@@ -61,11 +61,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              <span className="text-color-primary">Quality</span> Respondents for your <span className="text-color-primary">Qualitative</span> Research
+              Recruit High <span className="text-color-primary">Quality </span> Research <span className="text-color-primary">Participants</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Can't find the right interviewees? Tech-driven solutions to deliver quality interviewees at double the speed.
+                High quality respondents are hard to come by. Our tech-driven approach makes sure to deliver 100% quality participants. <br/>Say goodbye to fraudulence!
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
