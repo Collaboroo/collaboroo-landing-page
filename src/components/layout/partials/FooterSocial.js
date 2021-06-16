@@ -39,7 +39,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/collaboroo/">
+          {/* <a href="https://www.instagram.com/collaboroo/">
             <svg
               width="24"
               height="24"
@@ -54,7 +54,7 @@ const FooterSocial = ({
                   d="M12 16H4c-2.056 0-4-1.944-4-4V4c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zM4 2c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2V4c0-.935-1.065-2-2-2H4z" />
               </g>
             </svg>
-          </a>
+          </a> */}
         </li>
       </ul>
     </div>
